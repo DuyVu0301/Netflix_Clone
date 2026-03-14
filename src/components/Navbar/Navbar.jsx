@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import search_icon from "../../assets/search_icon.svg";
 import bell_icon from "../../assets/bell_icon.svg";
-import profile_img from "../../assets/profile_img.png";
+import profile_img from "../../assets/profile_img.jpg";
 import caret_icon from "../../assets/caret_icon.svg";
 import { logout } from "../../firebase";
 
@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
       <div className="narbar-right">
         <img src={search_icon} alt="" className="icons" />
-        <p>Children</p>
+        <p>Adult</p>
         <img src={bell_icon} alt="" className="icons" />
         <div className="navbar-profile">
           <img src={profile_img} alt="" className="proflie" />
